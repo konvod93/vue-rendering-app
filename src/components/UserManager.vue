@@ -67,7 +67,7 @@
   </section>
 </template>
 
-<script setup>
+<script setup ldng="ts">
 import { ref, computed } from 'vue'
 
 const showUsers = ref(false)

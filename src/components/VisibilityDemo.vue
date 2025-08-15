@@ -17,7 +17,7 @@
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 const showWithIf = ref(true)
 const showWithShow = ref(true)
